@@ -1,0 +1,12 @@
+.cache
+package.json
+package-lock.json
+# __tests__
+.circleci
+node_modules
+k8
+build
+env
+/public
+scripts
+# src/**/*.test.js

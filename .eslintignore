@@ -1,0 +1,19 @@
+__tests__
+__mocks__
+.circleci
+node_modules
+k8
+build
+env
+/public
+scripts
+coverage
+# src/**/*.test.js
+src/**/*.test.js
+src/**/*.test.ts
+src/**/*.test.jsx
+src/**/*.test.tsx
+jest-preprocess.js
+jest.config.js
+gatsby-*.js
+*.md

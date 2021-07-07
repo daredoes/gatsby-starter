@@ -1,0 +1,43 @@
+.cache/
+/public
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/fairapis-gen
+
+# testing
+/coverage
+# disabled tests
+*.dtest.js
+
+# production
+/build
+/public/env.js
+/env
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.staging.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs, text editors
+.vscode
+.dockerps
+.tern-project
+.tern-port
+.idea
+.npmrc
+
+# scratch files
+grpc_server.py
+.python-version
+requirements.txt
